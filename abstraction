@@ -1,0 +1,17 @@
+from abc import ABC, abstractmethod
+
+class Flyable(ABC):
+    @abstractmethod
+    def fly(self):
+        pass
+
+class Bird(Flyable):
+    def fly(self):
+        return "Bird is flying"
+
+class Plane(Flyable):
+    def fly(self):
+        return "Plane is flying"
+
+print(Bird().fly())   # Bird is flying
+print(Plane().fly())  # Plane is flying
