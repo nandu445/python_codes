@@ -1,0 +1,6 @@
+Hello Nandu!
+This is a test file.
+Python file handling is easy and regular!
+Hello Nandu!
+This is a test file.
+Python file handling is easy and regular!
